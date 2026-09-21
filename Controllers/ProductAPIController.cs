@@ -1,5 +1,6 @@
 ﻿using CURDUSingAPIEFCore.Models;
 using CURDUSingAPIEFCore.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -9,6 +10,7 @@ namespace CURDUSingAPIEFCore.Controllers
 {
     [Route("api/[controller]")]
     [ApiController] // validation automatically 
+    [Authorize]
     public class ProductAPIController : ControllerBase
     {
 

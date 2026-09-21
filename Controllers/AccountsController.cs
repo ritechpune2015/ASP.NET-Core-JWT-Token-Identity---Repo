@@ -1,7 +1,6 @@
 ﻿using CURDUSingAPIEFCore.Dtos;
 using CURDUSingAPIEFCore.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
 
 namespace CURDUSingAPIEFCore.Controllers
 {
